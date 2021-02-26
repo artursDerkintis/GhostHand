@@ -15,5 +15,6 @@ public class GhostHand {
         let linkerApp = XCUIApplication(bundleIdentifier: "com.mattstanford.GhostHand")
         linkerApp.launchEnvironment["launchUrl"] = url
         linkerApp.launch()
+        linkerApp.buttons["Open"].tap()
     }
 }
